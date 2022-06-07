@@ -20,60 +20,79 @@
         />
         <NavLink
             :activeItem="activeItem"
-            header="Typography"
-            link="/app/typography"
-            iconName="flaticon-list"
-            index="typography"
-            isHeader
-        />
-        <NavLink
-            :activeItem="activeItem"
-            header="Tables Basic"
-            link="/app/tables"
-            iconName="flaticon-equal-1"
-            index="tables"
-            isHeader
-        />
-        <NavLink
-            :activeItem="activeItem"
-            header="Notifications"
+            header="Tasks"
             link="/app/notifications"
-            iconName="flaticon-bell"
-            index="notifications"
+            iconName="flaticon-list"
+            index="tasks"
             isHeader
         />
         <NavLink
             :activeItem="activeItem"
-            header="Components"
-            link="/app/components"
-            iconName="flaticon-network"
-            index="components"
-            :childrenLinks="[
-              { header: 'Charts', link: '/app/components/charts' },
-              { header: 'Icons', link: '/app/components/icons' },
-            ]"
+            header="Issues"
+            link="/app/notifications"
+            iconName="flaticon-warning"
+            index="issues"
+            isHeader
+        />
+        <NavLink
+            :activeItem="activeItem"
+            header="Events"
+            link="/app/notifications"
+            iconName="flaticon-calendar"
+            index="events"
+            isHeader
+        />
+        <NavLink
+            :activeItem="activeItem"
+            header="OPR"
+            link="/app/notifications"
+            iconName="flaticon-sign"
+            index="opr"
+            isHeader
+        />
+        <NavLink
+            :activeItem="activeItem"
+            header="Assets"
+            link="/app/notifications"
+            iconName="flaticon-diamond"
+            index="assets"
+            isHeader
+        />
+        <NavLink
+            :activeItem="activeItem"
+            header="Library"
+            link="/app/notifications"
+            iconName="flaticon-bookmark"
+            index="library"
+            isHeader
         />
       </ul>
       <h5 class="navTitle">
-        LABELS
+        REPORTS
       </h5>
       <ul class="sidebarLabels">
         <li>
           <a href="#">
-            <i class="fa fa-circle text-danger"/>
-            <span class="labelName">Core</span>
+            <i class="fa fa-circle text-primary"/>
+            <span class="labelName">Asset Summary</span>
           </a>
         </li>
         <li>
           <a href="#">
             <i class="fa fa-circle text-primary"/>
-            <span class="labelName">UI Elements</span>
+            <span class="labelName">Checklist Completion</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-circle text-danger"/>
+            <span class="labelName">Issues Log</span>
           </a>
         </li>
         <li>
           <a href="#">
             <i class="fa fa-circle text-success"/>
-            <span class="labelName">Forms</span>
+            <span class="labelName">OPR Results</span>
           </a>
         </li>
       </ul>
@@ -110,14 +129,14 @@ export default {
       alerts: [
         {
           id: 0,
-          title: 'Sales Report',
+          title: 'Suwanee Library Renovation',
           value: 15,
           footer: 'Calculating x-axis bias... 65%',
           color: 'danger',
         },
         {
           id: 1,
-          title: 'Personal Responsibility',
+          title: 'North GA Police Precinct',
           value: 20,
           footer: 'Provide required notes',
           color: 'primary',
