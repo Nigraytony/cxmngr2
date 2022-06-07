@@ -10,9 +10,6 @@ import TypographyPage from '@/pages/Typography/Typography';
 // Tables
 import TablesBasicPage from '@/pages/Tables/Basic';
 
-// Maps
-import GoogleMapPage from '@/pages/Maps/Google';
-
 // Main
 import AnalyticsPage from '@/pages/Dashboard/Dashboard';
 
@@ -72,11 +69,6 @@ export default new Router({
           path: 'tables',
           name: 'TablesBasicPage',
           component: TablesBasicPage,
-        },
-        {
-          path: 'components/maps',
-          name: 'GoogleMapPage',
-          component: GoogleMapPage,
         },
       ],
     },

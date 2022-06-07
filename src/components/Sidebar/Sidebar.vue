@@ -6,14 +6,9 @@
         @mouseleave="sidebarMouseLeave"
     >
       <header class="logo">
-        <router-link to="/app/dashboard"><span class="primary-word">Sing</span> <span class="secondary-word"> App</span></router-link>
+        <router-link to="/app/dashboard"><span class="primary-word">Cx </span>Manager</router-link>
       </header>
 
-      <a class="generator-link navTitle" target="_blank" href="https://flatlogic.com/generator">Generate App</a>
-
-      <h5 class="navTitle first">
-        APP
-      </h5>
       <ul class="nav">
         <NavLink
             :activeItem="activeItem"
@@ -56,7 +51,6 @@
             :childrenLinks="[
               { header: 'Charts', link: '/app/components/charts' },
               { header: 'Icons', link: '/app/components/icons' },
-              { header: 'Maps', link: '/app/components/maps' },
             ]"
         />
       </ul>
