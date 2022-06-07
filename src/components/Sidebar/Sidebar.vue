@@ -21,7 +21,7 @@
         <NavLink
             :activeItem="activeItem"
             header="Tasks"
-            link="/app/notifications"
+            link="/app/tasks"
             iconName="flaticon-list"
             index="tasks"
             isHeader
@@ -29,7 +29,7 @@
         <NavLink
             :activeItem="activeItem"
             header="Issues"
-            link="/app/notifications"
+            link="/app/issues"
             iconName="flaticon-warning"
             index="issues"
             isHeader
@@ -37,7 +37,7 @@
         <NavLink
             :activeItem="activeItem"
             header="Events"
-            link="/app/notifications"
+            link="/app/events"
             iconName="flaticon-calendar"
             index="events"
             isHeader
@@ -45,7 +45,7 @@
         <NavLink
             :activeItem="activeItem"
             header="OPR"
-            link="/app/notifications"
+            link="/app/oprs"
             iconName="flaticon-sign"
             index="opr"
             isHeader
@@ -53,17 +53,17 @@
         <NavLink
             :activeItem="activeItem"
             header="Assets"
-            link="/app/notifications"
+            link="/app/assets"
             iconName="flaticon-diamond"
             index="assets"
             isHeader
         />
         <NavLink
             :activeItem="activeItem"
-            header="Library"
-            link="/app/notifications"
+            header="Libraries"
+            link="/app/libraries"
             iconName="flaticon-bookmark"
-            index="library"
+            index="libraries"
             isHeader
         />
       </ul>
